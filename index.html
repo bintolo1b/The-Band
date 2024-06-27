@@ -1,0 +1,188 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="header" >
+                <ul id="nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Band</a></li>        
+                    <li><a href="">Tour</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li>
+                        <a href="">
+                            More
+                            <i class="nav-arrow-down ti-angle-down"></i>
+                        </a>
+                        <ul class="subnav">
+                            <li><a href="">Merchandise</a></li>
+                            <li><a href="">Extras</a></li>
+                            <li><a href="">Media</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="searchbutton">
+                    <i class="search-icon ti-search"></i>
+                </div>
+            </div>
+
+            <div id="slider">
+                <div class="text-content">
+                    <h3 class="text-heading">New York</h3>
+                    <div class="text-decription">The atmosphere in New York is lorem ipsum.</div>
+                </div>
+            </div>
+
+            <div id="content">
+                <div class="content-section">
+                    <div class="heading-section">THE BAND</div>
+                    <p class="sub-heading-section">We love music</p>
+                    <p class="about-content">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="band-member">
+                        <div class="member1 member">
+                            <p>Name</p>
+                            <img class="member-img" src="/assets/image/bandmember.jpg" alt="">
+                        </div>
+            
+                        <div class="member2 member">
+                            <p>Name</p>
+                            <img class="member-img" src="/assets/image/bandmember.jpg" alt="">
+                        </div>
+
+                        <div class="member3 member">
+                            <p>Name</p>
+                            <img class="member-img" src="/assets/image/bandmember.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-section">
+                    <div class="content-section">
+                        <p class="heading-section text-white">TOUR DATES</p>
+                        <p class="sub-heading-section text-white">Remember to book your tickets!</p>
+                        <br>
+                        <ul class="ticket">
+                            <li class="ticket-item">September <span class="sold-out">Sold out</span></li>
+                            <li class="ticket-item">October <span class="sold-out">Sold out</li>
+                            <li class="ticket-item">November <span class="quantity">3</li>
+                        </ul>
+
+                        <div class="place-container">
+                            <div class="place-section">
+                                <img src="/assets/image/newyork.jpg" alt="">
+                                <div class="detail-infor">
+                                    <b class="location">New York</b>
+                                    <p class="time">Fri 27 Nov 2016</p>
+                                    <p class="quote">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="buy-button js-buy-ticket">Buy Tickets</button>
+                                </div>
+                            </div>
+
+                            <div class="place-section">
+                                <img src="/assets/image/paris.jpg" alt="">
+                                <div class="detail-infor">
+                                    <b class="location">Paris</b>
+                                    <p class="time">Sat 28 Nov 2016</p>
+                                    <p class="quote">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="buy-button js-buy-ticket">Buy Tickets</button>
+                                </div>
+                            </div>
+
+                            <div class="place-section">
+                                <img src="/assets/image/sanfran.jpg" alt="">
+                                <div class="detail-infor">
+                                    <b class="location">San Francisco</b>
+                                    <p class="time">Sun 29 Nov 2016</p>
+                                    <p class="quote">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="buy-button js-buy-ticket">Buy Tickets</button> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="content-section">
+                    <p class="heading-section">CONTACT</p>
+                    <p class="sub-heading-section">Fan? Drop a note!</p>
+                </div>
+            </div>
+
+            <div id="modal" class="js-modal">
+                <div class="modal-container js-modal-container">
+                    <button class="modal-corner-cancel-button">
+                        <i class="modal-corner-cancel-item ti-close"></i>
+                    </button>
+                
+                    <div class="modal-heading">
+                        <i class="ti-bag"></i>
+                        Tickets
+                    </div>
+
+                    <div class="modal-body">
+                        <label for="" class="modal-label">
+                            <i class="ti-shopping-cart"></i>
+                            Tickets, $15 per person
+                        </label>
+                        <input type="text" class="modal-input" placeholder="How many?">
+
+                        <label for="" class="modal-label">
+                            <i class="ti-user"></i>
+                            Send to
+                        </label>
+                        <input type="text" class="modal-input" placeholder="Enter email">
+                        
+                        <button class="modal-pay-button">
+                            PAY
+                            <i class="ti-check"></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="modal-footer-cancel-button">
+                            Close
+                            <i class="modal-footer-cancel-item ti-close"></i>
+                        </button>
+                        <p class="modal-help">
+                            Need
+                            <a href="" class="modal-help-link">help?</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const buyBtns = document.querySelectorAll('.js-buy-ticket')
+            const modal = document.querySelector('.js-modal')
+            const cornerCloseBtn = document.querySelector('.modal-corner-cancel-button')
+            const footerModalCloseBtn = document.querySelector('.modal-footer-cancel-button')
+            const modalContainer = document.querySelector('.js-modal-container')
+
+            function showModalTicket(){
+                modal.classList.add('open');
+            }
+
+            function closeModal(){
+                modal.classList.remove('open')
+            }
+
+            for(const buyBtn of buyBtns){
+                buyBtn.addEventListener('click', showModalTicket)
+            }
+
+            cornerCloseBtn.addEventListener('click', closeModal)
+            footerModalCloseBtn.addEventListener('click', closeModal)
+            modal.addEventListener('click', closeModal)
+            modalContainer.addEventListener('click',function(event){
+                event.stopPropagation()
+            })
+        </script>
+    </body>
+    </html>
