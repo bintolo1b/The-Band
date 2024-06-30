@@ -1,10 +1,45 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html{
+    scroll-behavior: smooth;
     font-family: "Lato", sans-serif;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.mt-8{
+    margin-top: 8px !important;
+}
+
+.mt-16{
+    margin-top: 16px !important;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col{
+    float :left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half{
+    width: 50%;
+}
+
+.col-full{
+    width: 100%;
 }
 
 #header{
@@ -385,4 +420,77 @@ html{
     }
 }
 
+.contact-content{
+    margin-top: 48px;
+}
+
+.contact-infor{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-infor i[class*="ti-"]{
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-content{
+    padding-bottom: 32px;
+}
+
+.contact-form{
+    font-size: 15px;
+}
+
+.contact-form .form-control{
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.form-submit-btn{
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    padding: 11px 20px;
+    float: right;
+    cursor: pointer;
+    font-weight: 535;
+}
+
+.form-submit-btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.map-section img{
+    width: 100%;
+}
+
+.footer{
+    padding: 64px 0;
+    text-align: center;
+}
+
+.footer .social-list{
+    font-size: 22px;
+}
+
+.footer .social-list a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.footer .social-list a:hover{
+    color: rgba(0, 0, 0, 0.4)
+}
+
+.footer .copy-right{
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.footer .copy-right, .footer .copy-right a{
+    color: rgba(0, 0, 0, 0.6);
+}
 
