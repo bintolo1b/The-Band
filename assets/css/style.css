@@ -38,6 +38,10 @@ html{
     width: 50%;
 }
 
+.col-third{
+    width: 33.333333%;
+}
+
 .col-full{
     width: 100%;
 }
@@ -78,10 +82,15 @@ html{
 
 #nav .subnav{
     min-width: 160px;
-    display: none;
+    display: none; 
     position: absolute;
     list-style-type: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav li:hover .subnav{
+    display: block; 
+    background-color: #fff;
 }
 
 .subnav a{
@@ -91,39 +100,51 @@ html{
     padding: 8px 12px;
 }
 
-#nav li:hover .subnav{
-    display: block;
-    background-color: #fff;
-}
-
 .subnav a:hover{
     background-color: #ccc;
-}
+} 
 
 .nav-arrow-down{
     font-size: 12px;
 }
+
+#header .mobile-menu-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+} 
 
 #header .searchbutton{
     float: right;
     cursor: pointer;
 }
 
+#header .mobile-menu-btn .menu-icon, 
 #header .searchbutton .search-icon{
     color: #fff;
     font-size: 14px;
     line-height: 46.5px;
     padding: 0 24px;
 }
+
 #header .searchbutton:hover{
     background-color: #f44336;  
+}
+
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;  
+}
+
+#header .mobile-menu-btn:hover .menu-icon{
+    color: #000;  
 }
 
 #slider{
    position: relative;
    margin-top: 46.5px; 
    padding-top: 50%;
-   background-image: url("/assets/image/slider1.jpg");
+   background-image: url("../image/slider1.jpg");
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -144,6 +165,7 @@ html{
 #slider .text-content .text-decription{
     font-size: 15px;
     margin: 10px 0;
+    text-shadow: 0 0 1px #000;
 }
 
 #slider .text-content .text-heading, .text-decription{
@@ -152,10 +174,12 @@ html{
 
 #content .content-section{
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0;   
-
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .content-section .heading-section{
@@ -186,6 +210,7 @@ html{
 #content .band-member .member{
     display: inline-block;
     text-align: center;
+    width: 33.33333%;
 }
 
 #content .band-member p{
@@ -237,16 +262,11 @@ html{
 
 .place-container{
     font-size: 0px;
-    margin-left: -8px;
-    margin-right: -8px;
     padding: 32px 0;
 }
 
 .place-container .place-section{
-    display: inline-block;
-    width: 33.333333%;
-    font-size: 0px;
-    padding: 0 8px; 
+    font-size: 0px; 
     box-sizing: border-box;
 }
 

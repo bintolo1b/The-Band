@@ -1,0 +1,120 @@
+/* PC */
+@media (min-width: 64em){
+
+}
+
+@media (max-width: 63.9375em){
+    .subnav a {
+        padding: 14px 12px;
+    }
+
+    .place-section .detail-infor .buy-button {
+        padding: 15px 16px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 20px;
+    }
+
+    .footer .social-list {
+        font-size: 28px;
+    }
+
+    .footer .social-list a {
+        margin: 0 8px;
+    }
+
+    .footer .copy-right a {
+        padding: 13px 0;
+        display: inline-block;
+    }
+}
+
+/* tablet */
+@media (min-width:46.25em) and (max-width: 63.9375em){
+
+} 
+
+/* mobile */
+@media (max-width: 46.1875em){
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-full-width{
+        width: 100% !important;
+    }
+    
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .searchbutton{
+        display: none;
+    }   
+
+    #slider .text-content{
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav >li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+    }
+
+    #nav li:hover .subnav {
+        background-color: #333;
+    }
+
+    .subnav a {
+        color: #fff;
+        padding: 20px 38px;
+    }
+
+    #content .band-member .member {
+        display: block;
+        width: 100%;
+    }
+
+    #content .band-member p {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .place-container .place-section {
+        margin-bottom: 16px;
+    }
+
+    .place-section .detail-infor .buy-button {
+        width: 100%;
+    }
+    
+    .contact-form {
+        margin-top: 32px;
+        line-height: 2;
+    }
+
+    .contact-form .form-control {
+        padding: 14px;
+        font-size: 16px;
+    }
+}
